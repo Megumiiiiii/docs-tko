@@ -19,6 +19,16 @@ export default defineConfig({
         Head: "./src/components/starlight/Head.astro",
       },
       title: "Docs",
+      locales: {
+        root: {
+          label: 'English',
+          lang: 'en', // lang is required for root locales
+        },
+        'id': {
+          label: 'Bahasa Indonesia',
+          lang: 'id',
+        },
+      },
       editLink: {
         baseUrl: "https://github.com/taikoxyz/docs/edit/main/",
       },
